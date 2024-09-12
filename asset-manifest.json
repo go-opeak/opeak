@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/O.peak/static/js/main.13b5053f.js",
+    "main.js": "/O.peak/static/js/main.f0f40a63.js",
     "index.html": "/O.peak/index.html",
-    "main.13b5053f.js.map": "/O.peak/static/js/main.13b5053f.js.map"
+    "main.f0f40a63.js.map": "/O.peak/static/js/main.f0f40a63.js.map"
   },
   "entrypoints": [
-    "static/js/main.13b5053f.js"
+    "static/js/main.f0f40a63.js"
   ]
 }
