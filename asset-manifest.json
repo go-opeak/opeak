@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/O.peak/static/js/main.13b5053f.js",
-    "index.html": "/O.peak/index.html",
-    "main.13b5053f.js.map": "/O.peak/static/js/main.13b5053f.js.map"
+    "main.js": "/opeak/static/js/main.b69e2941.js",
+    "index.html": "/opeak/index.html",
+    "main.b69e2941.js.map": "/opeak/static/js/main.b69e2941.js.map"
   },
   "entrypoints": [
-    "static/js/main.13b5053f.js"
+    "static/js/main.b69e2941.js"
   ]
 }
