@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="refresh" content="0; URL='/'" />
+    <script>
+      const pathname = window.location.pathname;
+      const origin = window.location.origin;
+      window.location.replace(`${origin}${process.env.PUBLIC_URL}#${pathname}`);
+    </script>
+  </head>
+  <body>
+    <p>If you're not redirected, <a href="/">click here</a>.</p>
+  </body>
+</html>
