@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/opeak/static/js/main.50e370e8.js",
+    "main.js": "/opeak/static/js/main.457cfd0f.js",
     "static/js/453.0840fbac.chunk.js": "/opeak/static/js/453.0840fbac.chunk.js",
     "index.html": "/opeak/index.html",
-    "main.50e370e8.js.map": "/opeak/static/js/main.50e370e8.js.map",
+    "main.457cfd0f.js.map": "/opeak/static/js/main.457cfd0f.js.map",
     "453.0840fbac.chunk.js.map": "/opeak/static/js/453.0840fbac.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.50e370e8.js"
+    "static/js/main.457cfd0f.js"
   ]
 }
