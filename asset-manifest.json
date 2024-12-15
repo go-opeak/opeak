@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/opeak/static/js/main.bedb1fcc.js",
+    "main.js": "/opeak/static/js/main.8d40835d.js",
     "static/js/453.0840fbac.chunk.js": "/opeak/static/js/453.0840fbac.chunk.js",
     "static/media/banner.png": "/opeak/static/media/banner.73e49c29dfdc7e43992e.png",
     "static/media/logo.svg": "/opeak/static/media/logo.616a99a4d0ae5733fe8492f286cb9abc.svg",
     "index.html": "/opeak/index.html",
-    "main.bedb1fcc.js.map": "/opeak/static/js/main.bedb1fcc.js.map",
+    "main.8d40835d.js.map": "/opeak/static/js/main.8d40835d.js.map",
     "453.0840fbac.chunk.js.map": "/opeak/static/js/453.0840fbac.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.bedb1fcc.js"
+    "static/js/main.8d40835d.js"
   ]
 }
