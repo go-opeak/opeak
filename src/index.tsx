@@ -1,22 +1,35 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
-import { RouterProvider } from "react-router-dom";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
+import App from "App";
+import { BrowserRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ThemeProvider } from "styled-components";
-import router from "./App";
-import GlobalStyle from "@styles/globalStyles";
 import theme from "@styles/theme";
+import GlobalStyle from "@styles/globalStyles";
+import { RecoilRoot } from "recoil";
 
 const client = new QueryClient();
-const element = document.getElementById("root");
-const root = createRoot(element as Element);
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement
+);
+
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  <RecoilRoot>
     <QueryClientProvider client={client}>
       <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <RouterProvider router={router} />
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <GlobalStyle />
+          <App />
+        </BrowserRouter>
       </ThemeProvider>
     </QueryClientProvider>
-  </React.StrictMode>
+  </RecoilRoot>
+  // </React.StrictMode>
 );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
